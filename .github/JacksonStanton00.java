@@ -1,4 +1,4 @@
-// Challah Byard, Arrays Practice, v0.1, 01/24/22
+// Challah Byard, Arrays Practice, v0.2, 01/24/22
 
 public class JacksonStanton00 {
 
@@ -6,6 +6,7 @@ public class JacksonStanton00 {
 
         int[] myGrades = {100, 25, 15, -3, 0, 75, 35};
         double[] myBankAccount = {0.0, -1.25, 3.75, 456.99, 25.25, 12.123456, 3.14};
+        String[] carArr = {"BMW", "Ferrari 250 GTO", "Porshe 911", "Ford F150 Lighting", "Buick Skylark"};
         /*
         for (current_element = 0; current_element < carArr.length(); current_element += 1) {
             // code to execute
@@ -17,24 +18,40 @@ public class JacksonStanton00 {
          */
         
 
-        for (i = 0; i < carArr.length(); i++) {
+        for (int i = 0; i < carArr.length; i++) {
             // System.out.println(i);
+            // System.out.println(carArr[i]);<-----
+
+            if (carArr[i].length() % 2 == 0) {
             System.out.println(carArr[i]);
-
-
-
-
+            System.out.println("This string has an even length.");
+        } else {
+            System.out.println(carArr[i]);
+            System.out.println("This string has an even length."); 
         }
-       
+
+    }
+
+
+
+
+   
+    
         
-        String[] carArr = {"BMW", "Ferrari 250 GTO", "Porshe 911", "Ford F150 Lighting", "Buick Skylark"};
         System.out.println(carArr[3]);
         // ONCE CREATED YOU CANNOT CHANGE THE SIZE OD AN ARRAY. IT IS FORBIDDEN!
-        CcarArr[0] = "Volkswagen Passat"; 
-
+        // Enhanced For Loop
+        carArr[0] = "Volkswagen Passat"; 
         for (String eachElement : carArr) {
             // Code to execute.
             System.out.println(eachElement);
+         for (double eachElement1 : myBankAccount) {
+             // code to execute
+             System.out.println(eachElement1);
+    
+        for (int eachElement2 : myGrades) {
+            // code to execute
+            System.out.println(eachElement2);
         
         }
     }
@@ -49,4 +66,6 @@ public class JacksonStanton00 {
 
 
 
+
 }
+    }

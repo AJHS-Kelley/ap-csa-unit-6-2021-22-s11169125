@@ -1,4 +1,4 @@
-// Challah Byard, Arrays Practice, v0.2, 01/24/22
+// Challah Byard, Arrays Practice, v0.3, 01/28/22
 
 public class JacksonStanton00 {
 
@@ -35,7 +35,7 @@ public class JacksonStanton00 {
 
 
 
-   
+    /*
     
         
         System.out.println(carArr[3]);
@@ -57,7 +57,23 @@ public class JacksonStanton00 {
     }
 }
 
+     */
 
+    // 2D Arrays 
+
+    int[][] twoDIntArr = {{-2,3,8,0},{5,2,17,-6}};
+
+    System.out.println(twoDIntArr[0][2]);
+    System.out.println(twoDIntArr[1][3])
+
+    // Nested for Loop
+
+    for (int i = 0; i < twoDIntArr.length; ++i ) {
+        for (int j = 0; < twoDIntArr[i].length; ++j) {
+            System.out.println(twoDIntArr[i][j]);
+            
+        }
+    }
 
 
 
